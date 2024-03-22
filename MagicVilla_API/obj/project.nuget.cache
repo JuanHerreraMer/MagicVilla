@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yN1zi+44AvcoqtGx/sOi0kyu+iegHjR88n0gHew6JmQy6isA+Yn/J+BJZDlMszcuBTro4j9kav07q4QvkUs1BA==",
+  "dgSpecHash": "wyUtfX9rXpsbyQ+gF7SEqOqi1eWUMw2x300wtXvq+8WDzOwKJA36qhCWrYYwOIusVjp0vklVouodO9XKWUu6wQ==",
   "success": true,
   "projectFilePath": "D:\\JuanHM\\Cursos\\Udemy\\NET7-CSharp-Full\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\juanh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\juanh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\juanh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\juanh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
