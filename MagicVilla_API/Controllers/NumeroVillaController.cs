@@ -40,7 +40,7 @@ namespace MagicVilla_API.Controllers
             {
                 _logger.LogInformation("Obtener los numeros de villas");
 
-                IEnumerable<NumeroVilla> numeroVillaList = await _numeroRepo.ObtenerTodos();
+                IEnumerable<NumeroVilla> numeroVillaList = await _numeroRepo.ObtenerTodos(incluirPropiedades: "Villa");
                 _response.Resultado = _mapper.Map<IEnumerable<NumeroVillaDto>>(numeroVillaList);
                 _response.statusCode = HttpStatusCode.OK;
                 //_response.isExitoso = true;
@@ -71,7 +71,7 @@ namespace MagicVilla_API.Controllers
                     return BadRequest(_response);
                 }
 
-                var numeroVilla = await _numeroRepo.Obtener(v => v.VillaNo == id);
+                var numeroVilla = await _numeroRepo.Obtener(v => v.VillaNo == id, incluirPropiedades: "Villa");
 
                 if (numeroVilla == null)
                 {
@@ -109,13 +109,13 @@ namespace MagicVilla_API.Controllers
 
                 if (await _numeroRepo.Obtener(v => v.VillaNo == createDto.VillaNo) != null)
                 {
-                    ModelState.AddModelError("NumeroVilla", "Ya está creado");
+                    ModelState.AddModelError("ErrorMessages", "Ya está creado");
                     return BadRequest(ModelState);
                 }
 
                 if(await _villaRepo.Obtener(v=>v.Id == createDto.VillaId) == null)
                 {
-                    ModelState.AddModelError("ClaveForanea", "ID Villa no existe");
+                    ModelState.AddModelError("ErrorMessages", "ID Villa no existe");
                     return BadRequest(ModelState);
                 }
 
@@ -195,7 +195,7 @@ namespace MagicVilla_API.Controllers
 
                 if (await _villaRepo.Obtener(v => v.Id == updateDto.VillaId) == null)
                 {
-                    ModelState.AddModelError("ClaveForanea", "ID Villa no existe");
+                    ModelState.AddModelError("ErrorMessages", "ID Villa no existe");
                     return BadRequest(ModelState);
                 }
 

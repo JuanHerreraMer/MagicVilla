@@ -1,0 +1,12 @@
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\bin\Debug\net8.0\MagicVilla_Utilidad.deps.json
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\bin\Debug\net8.0\MagicVilla_Utilidad.dll
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\bin\Debug\net8.0\MagicVilla_Utilidad.pdb
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\obj\Debug\net8.0\MagicVilla_Utilidad.GeneratedMSBuildEditorConfig.editorconfig
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\obj\Debug\net8.0\MagicVilla_Utilidad.AssemblyInfoInputs.cache
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\obj\Debug\net8.0\MagicVilla_Utilidad.AssemblyInfo.cs
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\obj\Debug\net8.0\MagicVilla_Utilidad.csproj.CoreCompileInputs.cache
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\obj\Debug\net8.0\MagicVilla_Utilidad.sourcelink.json
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\obj\Debug\net8.0\MagicVilla_Utilidad.dll
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\obj\Debug\net8.0\refint\MagicVilla_Utilidad.dll
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\obj\Debug\net8.0\MagicVilla_Utilidad.pdb
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_Utilidad\obj\Debug\net8.0\ref\MagicVilla_Utilidad.dll
