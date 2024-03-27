@@ -140,3 +140,4 @@ D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_API\obj\Debug\net8
 D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_API\obj\Debug\net8.0\MagicVilla_API.pdb
 D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_API\obj\Debug\net8.0\MagicVilla_API.genruntimeconfig.cache
 D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_API\obj\Debug\net8.0\ref\MagicVilla_API.dll
+D:\JuanHM\Cursos\Udemy\NET7-CSharp-Full\MagicVilla\MagicVilla_API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -4,6 +4,10 @@ namespace MagicVilla_API.Modelos
 {
     public class APIResponse
     {
+        public APIResponse()
+        {
+            errorMessages = new List<string>();
+        }
         public HttpStatusCode statusCode { get; set; }
         public bool isExitoso { get; set; } = true;
         public List<string> errorMessages { get; set; }
