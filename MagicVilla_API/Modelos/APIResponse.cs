@@ -15,5 +15,6 @@ namespace MagicVilla_API.Modelos
         //Prop object Resultado es usado para retornar cualquier tipo de lista, objecto propiamente tal u otra cosa
         //sería como un "Generico" o comodín
         public object Resultado { get; set; }
+        public int TotalPaginas { get; set; }
     }
 }

@@ -507,6 +507,37 @@
     ]
   },
   {
+    "ContainingType": "MagicVilla_API.Controllers.v1.VillaController",
+    "Method": "getVillasPaginado",
+    "RelativePath": "api/v1/Villa/VillasPaginado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MagicVilla_API.Modelos.APIResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "MagicVilla_API.Controllers.v2.NumeroVillaController",
     "Method": "Get",
     "RelativePath": "api/v2/NumeroVilla",

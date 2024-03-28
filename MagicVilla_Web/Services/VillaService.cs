@@ -9,7 +9,7 @@ namespace MagicVilla_Web.Services
     {
         //public readonly IHttpClientFactory _httpClient;
         private string _villaUrl;
-        public VillaService(IHttpClientFactory httpClient, IConfiguration configuration) :base(httpClient)
+        public VillaService(IHttpClientFactory httpClient, IConfiguration configuration) : base(httpClient)
         {
             _httpClient = httpClient;
 
@@ -22,7 +22,7 @@ namespace MagicVilla_Web.Services
             {
                 APITipo = DS.APITipo.PUT,
                 Datos = dto,
-                Url = _villaUrl + "/Villa/"+dto.Id,
+                Url = _villaUrl + "/Villa/" + dto.Id,
                 Token = token
             });
         }
@@ -33,7 +33,7 @@ namespace MagicVilla_Web.Services
             {
                 APITipo = DS.APITipo.POST,
                 Datos = dto,
-                Url = _villaUrl+"/Villa",
+                Url = _villaUrl + "/Villa",
                 Token = token
             });
         }
@@ -55,6 +55,17 @@ namespace MagicVilla_Web.Services
                 APITipo = DS.APITipo.GET,
                 Url = _villaUrl + "/Villa/",
                 Token = token
+            });
+        }
+
+        public Task<T> ObtenerTodosPaginado<T>(string token, int pageNumber = 1, int pageSize = 4)
+        {
+            return SendAsync<T>(new APIRequest()
+            {
+                APITipo = DS.APITipo.GET,
+                Url = _villaUrl + "/Villa/VillasPaginado",
+                Token = token,
+                Parametros = new Parametros() { PageNumber = pageNumber, PageSize = pageSize }
             });
         }
 
