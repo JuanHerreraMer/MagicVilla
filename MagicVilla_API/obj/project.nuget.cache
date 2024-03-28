@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "sQxXUACQyhLeC6B1FKCWUlHIcUPzcg0akz0PpKOHObyKLO/cNkbg532DmrWdiQMkt4dbE1lHXGSARV5yQyK4MQ==",
+  "dgSpecHash": "L/lzwe13PVSC2xB0L0OLqiQqp5EPVe4fMr2nH6b8xuQ9r8lOHMhXOnb9GEPlEa//HC6FY7UyKvl7RPGH2o0lcw==",
   "success": true,
   "projectFilePath": "D:\\JuanHM\\Cursos\\Udemy\\NET7-CSharp-Full\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\juanh\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
+    "C:\\Users\\juanh\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",
+    "C:\\Users\\juanh\\.nuget\\packages\\asp.versioning.mvc\\8.1.0\\asp.versioning.mvc.8.1.0.nupkg.sha512",
+    "C:\\Users\\juanh\\.nuget\\packages\\asp.versioning.mvc.apiexplorer\\8.1.0\\asp.versioning.mvc.apiexplorer.8.1.0.nupkg.sha512",
     "C:\\Users\\juanh\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\juanh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\juanh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
