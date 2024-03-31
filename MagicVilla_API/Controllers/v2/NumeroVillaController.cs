@@ -18,6 +18,7 @@ namespace MagicVilla_API.Controllers.v2
     [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
     [ApiVersion("2.0")]
+    [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
     public class NumeroVillaController : ControllerBase
     {
         private readonly ILogger<NumeroVillaController> _logger;

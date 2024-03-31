@@ -36,7 +36,7 @@ namespace MagicVilla_API.Controllers.v1
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(200)]
         public async Task<ActionResult<APIResponse>> GetNumeroVillas()
         {
@@ -61,7 +61,7 @@ namespace MagicVilla_API.Controllers.v1
         }
 
         [HttpGet("{id:int}", Name = "GetNumeroVilla")]
-        [Authorize]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -100,7 +100,7 @@ namespace MagicVilla_API.Controllers.v1
         }
 
         [HttpPost]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(StatusCodes.Status201Created)]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]
@@ -147,7 +147,7 @@ namespace MagicVilla_API.Controllers.v1
         }
 
         [HttpDelete("{id:int}")]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
@@ -186,7 +186,7 @@ namespace MagicVilla_API.Controllers.v1
         }
 
         [HttpPut("{id:int}")]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin", AuthenticationSchemes = "Bearer")]
         [ProducesResponseType(204)]
         [ProducesResponseType(400)]
         [ProducesResponseType(404)]
